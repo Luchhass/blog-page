@@ -1,0 +1,186 @@
+/* CSS RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+/* STYLE */
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-title {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 44px;
+}
+
+.blog-title h1 {
+    color: #212121;
+    width: 824px;
+    height: 96px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    margin-bottom: 28px; 
+}
+
+.writer {
+    display: flex;
+    align-items: start;
+    gap: 12px;
+}
+
+.mac-book {
+    margin-bottom: 46px;
+}
+
+.mac-book img {
+    margin-bottom: 24px;
+}
+
+.mac-book p {
+    color: #212121;
+    width: 1112px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.mac-pro {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.mac-pro-texts {
+    width: 540px;
+    height: 387px;
+}
+
+.mac-pro-texts h3 {
+    color: #212121;
+    width: 546px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.mac-pro-texts p {
+    color: #212121;
+    width: 546px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.rohald-dahl-motto {
+    background-color: #ECF1F8;
+    padding: 96px 24px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.rohald-dahl-motto h1 {
+    color: #212121;
+    width: 770px;
+    height: 111px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.apple-watch-description {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 128px;
+}
+
+.apple-watch-texts {
+    width: 540px;
+    height: 387px;
+}
+
+.apple-watch-texts h3 {
+    color: #212121;
+    width: 546px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.apple-watch-texts p {
+    color: #212121;
+    width: 546px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.apple-watch-video h2 {
+    color: #212121;
+    width: 194px;
+    height: 37px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    margin-bottom: 32px;
+}
